@@ -1,0 +1,6 @@
+#!/bin/bash
+yum install git -y
+systemctl start git
+systemctl enable git
+systemctl status git
+git version
